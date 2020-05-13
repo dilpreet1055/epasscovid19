@@ -1,0 +1,600 @@
+body {
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+}
+
+.passTableTitleDiv {
+  margin: 40px;
+}
+
+.passTableTitle {
+  margin: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #414141;
+}
+
+.passTableSubTitle {
+  margin: 0px;
+  font-size: 16px;
+  color: #616161;
+}
+
+.tableContentMain {}
+
+.navDiv {
+  padding: 8px 24px;
+  background-color: #172d51;
+}
+
+.navLogo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.navText {
+  display: inline-block;
+  margin: 0px 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.passTableDiv {
+  margin: 40px;
+}
+
+.passTable {
+  width: 100%;
+}
+
+.passTableHead {}
+
+.passTableRow {
+  border-radius: 4px;
+}
+
+.passTableHeadItem {
+  background-color: #172d51;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px;
+  border: 0px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.passTableBody {
+  border: 1px solid #c8c8c8
+}
+
+.passTableBodyItem {
+  text-align: center;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.acceptSpan {
+  background-color: #26c45a;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.rejectSpan {
+  background-color: #d45a5a;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pdfSpan {
+  display: none;
+  color: #d45a5a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.passPdfDiv, .passQRDiv {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.passPdfTitleDiv, .passPdfTitleDivOther {
+  margin: 0px 0px;
+  font-size: 22px;
+  margin-left: 8px;
+  color: #d45a5a;
+  font-weight: bold;
+  background-color: rgba(40,167,69,.6); 
+}
+
+.passPdfTitleDivOther {
+  background-color: #61C5FF !important;
+}
+
+.passLogo {
+  width: 40px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -40px;
+}
+
+.passPdfTitle {
+  display: block;
+  font-size: 12px;
+  margin-left: 8px;
+  color: #d45a5a;
+}
+
+.userTitleDiv {
+  margin: 16px;
+  padding: 0px 4px;
+}
+
+.userTitle {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.passText {
+  display: inline-block;
+  margin: 0px;
+}
+
+.passLabel {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 6px !important;
+  color: #212121;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.passRow {
+  padding: 0px !important;
+}
+
+.passDataContainer, .passQRDataContainer {
+  width: 100%;
+  max-width: 440px;
+  margin: 0px auto;
+  border-radius: 4px;
+}
+
+.passQRDataContainer {
+  border: 0px;
+}
+
+.passRow {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.passType {
+  text-align: left;
+  margin-left: 12px;
+  margin-right: 5px;
+  font-size: 55px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.passTypeG {
+  color: #6666ff;
+}
+
+.passTypeI {
+  color: #33cc33;
+}
+
+.passTypeE {
+  color: #ff66ff;
+}
+
+.passTypeH {
+  color: crimson;
+}
+
+.passTypeM {
+  color: #993333;
+}
+
+.passTypeS {
+  color: #00ffff;
+}
+
+.passTypeV {
+  color: #cccc00;
+}
+
+.passTypeNone {
+  color: #003300;
+}
+
+.passCol {
+  margin: 8px 0px;
+}
+
+.passApprovalAuthority {
+  font-size: 18px;
+}
+
+.passCountsDiv {
+  text-align: right;
+  margin: 0px 40px;
+  display: inline-block;
+}
+
+.countDiv {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.countText {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.countSpan {
+  margin-left: 2px;
+}
+
+.allPassDiv {
+  color: #fff;
+  border: 1px solid #39548a;
+}
+
+.allPassText {
+  color: #39548a;
+}
+
+.acceptedPassDiv {
+  border: 1px solid #26c45a;
+  color: #fff;
+}
+
+.acceptedPassText {
+  color: #26c45a;
+}
+
+.rejectedPassDiv {
+  border: 1px solid #d45a5a;
+  color: #fff;
+}
+
+.rejectedPassText {
+  color: #d45a5a;
+}
+
+.pendingPassDiv {
+  border: 1px solid #e9bb01;
+  color: #fff;
+}
+
+.pendingPassText {
+  color: #e9bb01;
+}
+
+.passStatusFilter {
+  display: inline-block;
+  float: left;
+  margin: 16px 40px;
+}
+
+.passStatusSelect, .categorySelect, .districtSelect {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #c8c8c8;
+  padding: 4px 12px;
+  color: #515151;
+}
+
+.mobileNumInput {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #c8c8c8;
+  padding: 4px 12px;
+  color: #515151;
+}
+
+.searchBtnFilter {
+  border: 0px;
+  background-color: #26c45a;
+  color: #fff;
+  padding: 5px 24px;
+  border-radius: 4px;
+}
+
+.filterLabel {
+  display: block;
+  margin: 0px;
+  font-size: 14px;
+  color: #515151;
+}
+
+select:focus {
+  outline: none;
+}
+
+.paginationDiv {
+  text-align: center;
+}
+
+.totlaCountText {
+  display: inline-block;
+  margin: 0px 8px;
+  border-radius: 4px;
+  border: 1px solid #c8c8c8;
+  padding: 4px 12px;
+  color: #414141;
+  font-size: 14px;
+}
+
+.totlaCountSpan {
+  color: #212121;
+  font-weight: bold;
+}
+
+.paginationBtnDiv {
+  display: inline-block;
+  margin: 0px 8px;
+}
+
+.prevBtn, .nextBtnInactive {
+  background-color: #a9a9a9;
+  border: 0px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 14px;
+}
+
+.nextBtn, .prevBtnActive {
+  background-color: #39548a;
+  border: 0px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 14px;
+}
+
+.pageCountText {
+  display: inline-block;
+  margin: 0px 8px;
+  border-radius: 4px;
+  border: 1px solid #c8c8c8;
+  padding: 4px 12px;
+  color: #414141;
+  font-size: 14px;
+}
+
+.pageCountNo {
+  color: #212121;
+  font-weight: bold;
+}
+
+.pageCountTotal {
+  color: #212121;
+  font-weight: bold;
+}
+
+.userPic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0px auto;
+  margin-top: 0px;
+  border: 6px solid red;
+}
+
+.passName {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.passNameCol {
+  text-align: center;
+  max-width: 50%;
+}
+
+.passDataDiv, .passQRDataDiv {
+  position: relative;
+}
+
+.passSubDiv, .passQRSubDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.qrPic {
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+}
+
+.qrText {
+  margin: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.verificationRow {
+  margin-top: 40px;
+}
+
+.passFilterLabel {
+  display: block;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.searchPageDiv {
+  display: inline-block;
+  text-align: left;
+  float: right;
+  /* margin-top: -20px; */
+  margin-right: 40px;
+}
+
+.gotoPageInput {
+  width: 100px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  font-size: 14px;
+  padding: 2px 8px;
+}
+
+.gotoPageInput::placeholder {
+  font-size: 14px;
+}
+
+.gotoPageBtn {
+  background-color: #26c45a;
+  color: #fff;
+  border: 0px;
+  border-radius: 4px;
+  padding: 1px 8px;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+/* ADD THIS TO PASSTABLE.CSS */
+
+.passValidityBlock {
+  display: inline-block;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin: 8px 0px;
+}
+
+.passValidityRed {
+  background-color: #d45a5a;
+}
+
+.passValidityBlue {
+  background-color: #61C5FF;
+}
+
+.passValidityGreen {
+  background-color: rgba(40,167,69,.6);
+}
+
+.passValidityBlockText {
+  color: #fff;
+  margin: 0px;
+}
+
+.passValidityBlockSpan {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.passTypeDiv, .passTypeDivOther {
+  background-color: rgba(40,167,69,.6);
+  padding: 14px 16px;
+  margin-top: 28px;
+}
+
+.passTypeDivOther {
+  background-color: #61C5FF;
+}
+
+.passTypeSubDiv {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  /* background-color: #28a745; */
+}
+
+.passTypeText {
+  display: inline-block;
+  margin: 0px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.passTypeSubText {
+  display: inline-block;
+  margin: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Nunito", 'sans-serif';
+  color: #fff;
+}
+
+.categoryTypeDiv, .categoryTypeDivOther {
+  background-color: rgba(40,167,69,.6);
+  display: inline-block;
+  margin: 4px 8px;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.categoryTypeDivOther {
+  background-color: #61C5FF !important;
+}
+
+.categoryTypeSpan {
+  color: #fff;
+  font-size: 22px;
+}
+
+.subCategoryTypeDiv , .subCategoryTypeDivOther{
+  background-color: rgba(40,167,69,.6);
+  display: inline-block;
+  margin: 4px 8px;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.subCategoryTypeDivOther {
+  background-color: #61C5FF;
+}
+
+.subCategoryTypeSpan {
+  color: #fff;
+  font-size: 19px;
+}
+
+.passBackgroundDiv {
+  position: relative;
+  width: 100%;
+  height: inherit;
+}
+
+.passBackgroundImg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  top: 85%;
+}
+
+.verificationRow {
+  margin-top: 10px;
+}
+
+.qrPic {
+  width: 270px;
+  height: 270px;
+  margin: 0px auto;
+}
